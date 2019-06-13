@@ -1,0 +1,1 @@
+{"jobID":"92c4b209-70f6-4e45-57f5-ee9f633d14ff","spec":{"type":"policy","cause":{"Message":"","User":""},"spec":{"default:deployment/ems-deployment":{"add":{"automated":"true"},"remove":{}}}},"result":null}
