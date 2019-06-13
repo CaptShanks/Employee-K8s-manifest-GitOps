@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: EMS-deployment
+  name: ems-deployment
   labels:
     app: ems-app
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: ems
-        image: ems-app
+        image: shashanktyagi/ems-app:a04f4d70592849e283c5ae425523e88cdf957087_12
         ports:
         - containerPort: 8080
