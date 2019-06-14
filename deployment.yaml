@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: ems
-        image: shashanktyagi/ems-app:36
+        image: shashanktyagi/ems-app:124f822-build37
         ports:
         - containerPort: 8080
